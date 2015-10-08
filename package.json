@@ -1,21 +1,21 @@
 {
   "name": "anca-misc",
   "main": "./lib/anca-misc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Various features which could help",
-  "keywords": ["tools"
+  "keywords": [
+    "tools"
   ],
   "activationCommands": {
-    "atom-workspace":[
+    "atom-workspace": [
       "anca-misc:copy-filepath-to-clipboard",
       "anca-misc:copy-filename-to-clipboard"
-   ]
+    ]
   },
   "repository": "https://github.com/AnickaBurova/anca-misc",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
