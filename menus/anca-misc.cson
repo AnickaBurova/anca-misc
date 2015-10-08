@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Copy file path in to clipboard'
+      'command': 'anca-misc:copy-filepath-to-clipboard'
+    },
+    {
+      'label': 'Copy file name in to clipboard'
+      'command': 'anca-misc:copy-filename-to-clipboard'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'anca-misc'
+      'submenu': [
+        {
+          'label': 'Copy file path in to clipboard'
+          'command': 'anca-misc:copy-filepath-to-clipboard'
+        },
+        {
+          'label': 'Copy file name in to clipboard'
+          'command': 'anca-misc:copy-filename-to-clipboard'
+        }
+      ]
+    ]
+  }
+]
